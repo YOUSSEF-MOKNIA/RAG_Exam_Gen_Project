@@ -25,7 +25,7 @@ const ChatPage: React.FC = () => {
     question_type: string;
   }) => {
     try {
-      const response = await fetch('http://localhost:8000/Exam/newexam', {
+      const response = await fetch('http://localhost:8000/Exam/generate-exam', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
