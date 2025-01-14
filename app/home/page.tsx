@@ -172,21 +172,21 @@ export default function HeroSection() {
             align="center"
             mb={4}
           >
-            <Image src="favicon.svg" h={10} alt="logo" />
-            <Text ml={2} mt={4} fontSize="md" fontWeight="bold" color={textColor}>
+            {/* <Image src="favicon.svg" h={8} alt="logo" />
+            <Text ml={2} mt={4} fontSize="md" fontWeight="normal" color={textColor}>
               Ultimate Quiz Generator
-            </Text>
+            </Text> */}
           </Flex>
 
           <Heading
             as="h1"
             fontSize={{ base: "4xl", lg: "5xl", xl: "6xl" }}
-            fontWeight="extrabold"
+            fontWeight="bold"
             mb={8}
             color="textColor"
             lineHeight="short"
           >
-            Elevate your learning experience with ASK-RAG: Your ultimate quiz and feedback platform
+            Elevate your learning experience with  ASK<Box as="span" color="#F9C650">.Base</Box>
           </Heading>
 
           <Text
@@ -196,7 +196,7 @@ export default function HeroSection() {
             mb={10}
             maxW="lg"
           >
-            Save countless hours building a platform from scratch. ASK-RAG delivers the fastest, most intuitive, and cutting-edge solution for quizzes and feedback. Try it now!
+            Save countless hours building a platform from scratch. ASK-Base delivers the fastest, most intuitive, and cutting-edge solution for quizzes and feedback. Try it now!
           </Text>
 
           <Flex
@@ -213,7 +213,7 @@ export default function HeroSection() {
               _focus={{ bg: "purple.700" }}
               >
               <Text
-                color={textColor}
+                color="white"
                 as="span"
                 ms="5px"
                 fontWeight="500"
